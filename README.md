@@ -128,16 +128,3 @@ Contributions are what make the open-source community such an amazing place to l
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-### What I Changed:
-
-1.  **Live Demo Link:** I replaced the placeholder with your actual URL: `https://url-trim.onrender.com/`.
-2.  **Deployment Platform:** I updated the "Tech Stack" and "Deployment" sections to mention Render, since that's where your app is hosted.
-3.  **Clone URL:** I put a placeholder in the "Clone the Repository" section. You should update this with your actual GitHub repository link so others can easily clone your project.
-
-Your project now has a fantastic, professional-looking `README.md` file. Great job
