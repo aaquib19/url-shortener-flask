@@ -38,8 +38,7 @@ def debug_db():
     # Create a string to display the results
     output = "<h1>Database Contents</h1>"
     for url_entry in all_urls:
-        output += f"<p>ID: {url_entry.id}, Short: {url_entry.short_url}, Long: {url_entry.original_url}</p>"
-        
+        output += f"<p>ID: {url_entry.id} | Short: {url_entry.short_url} | Clicks: {url_entry.clicks} | Long: {url_entry.original_url}</p>"        
     return output
 
 
@@ -60,6 +59,9 @@ def redirect_to_url(short_code):
 
     # 2. If found, redirect to the original long URL
     if url_entry:
+        url_entry.clicks += 1
+        db.session.commit()
+
         return redirect(url_entry.original_url)
     
     # 3. If not found, show a 404 Not Found error
