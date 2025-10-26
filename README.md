@@ -1,11 +1,3 @@
-
-
-Excellent! That's a great, clean URL. Let's update your `README.md` file to include it. This makes your project look much more professional and complete.
-
-Here is the updated `README.md` content. Just copy and paste this into your `README.md` file, replacing the old content.
-
----
-
 # Flask URL Shortener
 
 A simple, clean, and modular URL shortener built with Flask and SQLAlchemy. This project demonstrates a professional deployment setup using Gunicorn and is designed to be easily deployed on platforms like Render or Railway.
