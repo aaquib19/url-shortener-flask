@@ -22,7 +22,7 @@ def home():
             new_url = URL(original_url=url_to_shorten, short_url=short_url)
             db.session.add(new_url)
             db.session.commit()
-            short_url = request.host_url + new_url
+            short_url = request.host_url + short_url
 
         return f"You submitted: {url_to_shorten}. Shortened URL is: {short_url}"
 
